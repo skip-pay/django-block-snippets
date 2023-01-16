@@ -1,4 +1,6 @@
-django==2.0
-https://github.com/druids/germanium/tarball/2.0.0#egg=germanium-2.0.0
-coverage==4.0.2
+django==2.2
+skip-django-germanium==2.3.6.1
+coveralls
 six==1.10.0
+flake8
+-e ../
