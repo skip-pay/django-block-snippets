@@ -3,13 +3,13 @@ from setuptools import setup, find_packages
 from block_snippets import get_version
 
 setup(
-    name='django-block-snippets',
+    name='skip-django-block-snippets',
     version=get_version(),
     description="Django block snippets.",
     keywords='django, snippets',
     author='Lubos Matl',
     author_email='matllubos@gmail.com',
-    url='https://github.com/matllubos/django-block-snippets',
+    url='https://github.com/skip-pay/django-block-snippets',
     license='BSD',
     package_dir={'block_snippets': 'block_snippets'},
     include_package_data=True,
