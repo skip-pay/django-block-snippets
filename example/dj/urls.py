@@ -1,7 +1,7 @@
 from distutils.version import StrictVersion
 
 import django
-from django.conf.urls import url
+from django.urls import re_path as url
 
 from app.views import SnippetsTemplateView, JSONSnippetsTemplateView
 
